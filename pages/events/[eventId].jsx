@@ -25,6 +25,7 @@ const EventDetailedPage = ({ event }) => {
         <>
             <Head>
                 <title>{event.title} &mdash; Events </title>
+                <meta name="description" content={event.description} />
             </Head>
             <EventSummary title={event.title} />
             <EventLogistics

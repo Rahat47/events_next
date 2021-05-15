@@ -19,6 +19,7 @@ const EventsPage = ({ events }) => {
         <>
             <Head>
                 <title> All Events &mdash; Events </title>
+                <meta name="description" content="All Events listed here" />
             </Head>
 
             <>

@@ -9,6 +9,10 @@ const HomePage = ({ events }) => {
         <>
             <Head>
                 <title>Home &mdash; Events </title>
+                <meta
+                    name="description"
+                    content="Find great events for your personality"
+                />
             </Head>
             <div>
                 <EventList items={events} />
